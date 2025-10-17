@@ -1,7 +1,7 @@
 File Organizer - Automatic File Organization Tool
-📋 Project Description
+Project Description
 A Python automation script that automatically organizes files in a target directory based on their file types. The script scans a specified directory, identifies file types by their extensions, creates appropriate category folders, and moves files accordingly.
-🎯 Features
+Features
 
 Automatic File Classification: Identifies and categorizes files based on extensions
 Dynamic Folder Creation: Creates category folders automatically
@@ -10,7 +10,7 @@ Comprehensive Logging: Records all operations with timestamps
 Error Handling: Robust exception handling for safe operation
 Multiple Categories: Organizes into 8 predefined categories
 
-📁 File Categories
+File Categories
 The script organizes files into the following categories:
 
 Documents: PDF, DOC, DOCX, TXT, XLSX, XLS, PPT, PPTX, ODT, RTF
@@ -22,7 +22,7 @@ Code: PY, JAVA, CPP, C, JS, HTML, CSS, PHP, RB, GO, RS
 Executables: EXE, MSI, APK, DEB, RPM, DMG
 Others: All unrecognized file types
 
-🚀 Installation
+Installation
 Prerequisites
 
 Python 3.6 or higher
@@ -34,7 +34,7 @@ Download the file_organizer.py script
 Save it to your desired location
 No additional installation needed!
 
-💻 Usage
+Usage
 Basic Usage
 
 Open Terminal/Command Prompt
@@ -72,14 +72,14 @@ Do you want to proceed? (yes/no): yes
 
 ✓ Files organized successfully!
 Check 'file_organizer.log' for detailed information.
-📊 Output
+Output
 After execution, you'll find:
 
 Organized Folders: Category folders created in the target directory
 Log File: file_organizer.log with detailed operation history
 Moved Files: All files sorted into appropriate category folders
 
-🛡️ Safety Features
+Safety Features
 
 Non-Destructive: Only moves files, never deletes
 Duplicate Protection: Renames files to prevent overwriting
@@ -87,7 +87,7 @@ Skips System Files: Ignores hidden files and folders
 Detailed Logging: Complete audit trail of all operations
 Error Recovery: Continues operation even if individual files fail
 
-📝 Log File
+Log File
 The script creates a file_organizer.log file that records:
 
 Timestamp of each operation
@@ -105,14 +105,14 @@ pythonself.file_categories = {
     'YourCategory': ['.ext1', '.ext2', '.ext3'],
     # Add more categories as needed
 }
-⚠️ Important Notes
+Important Notes
 
 Backup First: Consider backing up important files before running
 Path Format: Use absolute paths for best results
 Permissions: Ensure you have read/write permissions for the target directory
 Nested Files: The script only organizes files in the root of the target directory
 
-🐛 Troubleshooting
+Troubleshooting
 Issue: "Directory does not exist"
 
 Solution: Verify the path is correct and accessible
@@ -125,11 +125,11 @@ Issue: Files not moving
 
 Solution: Check the log file for specific error messages
 
-📄 License
+License
 This project is created for educational purposes as part of a Python internship program.
-👨‍💻 Author
+Author
 Created as part of Python Internship Project
-🤝 Contributing
+Contributing
 Feel free to suggest improvements or report issues!
 
 Version: 1.0.0
